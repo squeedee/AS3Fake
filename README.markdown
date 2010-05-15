@@ -40,3 +40,9 @@ Nothing yet :)
   - Complex Polygon
 
 .. Lots of other stuff if anyone cares to help build them.
+
+## Credits
+
+(Faker)[http://faker.rubyforge.org/] for the source data and great idea
+
+(Drew Bournes)[http://github.com/drewbourne] great libs like (hamcrest)[http://github.com/drewbourne/hamcrest-as3] and (mockolate)[http://github.com/drewbourne/mockolate]
