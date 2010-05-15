@@ -17,7 +17,7 @@ package rasheed.fake {
 		}
 
 		[Test(it="creates a non-empty first name")]
-		public function ItCreatesANonEmptyFirstName():void {
+		public function itCreatesANonEmptyFirstName():void {
 			var result:String = Name.getFirstName();
 
 			assertThat(result,notNullValue());
@@ -26,7 +26,7 @@ package rasheed.fake {
 		}
 
 		[Test(it="creates different first names")]
-		public function ItCreatesDifferentFirstNames():void {
+		public function itCreatesDifferentFirstNames():void {
 			var result1:String = Name.getFirstName();
 			var result2:String = Name.getFirstName();
 
@@ -34,7 +34,7 @@ package rasheed.fake {
 		}
 
 		[Test(it="creates a non-empty last name")]
-		public function ItCreatesANonEmptyLastName():void {
+		public function itCreatesANonEmptyLastName():void {
 			var result:String = Name.getLastName();
 
 			assertThat(result,notNullValue());
@@ -43,7 +43,7 @@ package rasheed.fake {
 		}
 
 		[Test(it="creates different last names")]
-		public function ItCreatesDifferentLastNames():void {
+		public function itCreatesDifferentLastNames():void {
 			var result1:String = Name.getLastName();
 			var result2:String = Name.getLastName();
 

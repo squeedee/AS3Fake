@@ -30,14 +30,12 @@ You can of course implement your own enter-frame/timer to avoid this.
 
 ## Done
 
-Nothing yet :)
+- Anglo Names
+- Spatial points limited by AABB
 
 ## Planned
 
-- Anglo Names
-- Geospatial points, limited by:
-  - AABB
-  - Complex Polygon
+- Spatial points limited by Complex Polygon
 
 .. Lots of other stuff if anyone cares to help build them.
 
