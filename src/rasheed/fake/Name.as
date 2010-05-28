@@ -12,11 +12,11 @@ package rasheed.fake {
 		private static var lastNamesLength:int = lastNames.length;
 
 		public static function getFirstName():String {
-			return firstNames[FakeHelper.intInRange(firstNamesLength)];
+			return firstNames[FakeHelper.intUnder(firstNamesLength)];
 		}
 
 		public static function getLastName():String {
-			return lastNames[FakeHelper.intInRange(lastNamesLength)];
+			return lastNames[FakeHelper.intUnder(lastNamesLength)];
 		}
 		
 	}
